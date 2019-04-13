@@ -1,0 +1,21 @@
+#include<stdio.h>
+int func() ;
+int func1() ;
+int main()
+{
+	printf("3") ;
+	func1() ;
+	printf("2") ;
+	func() ;
+	return 0 ;
+}
+int func()
+{
+	printf("2") ;
+	return 0 ;
+}
+int func1()
+{
+	printf("3") ;
+	return 0 ;
+}
