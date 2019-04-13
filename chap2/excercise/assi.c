@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int m1,m2,i ;
+	int n=8 ;
+	for(i=0 ;i<8 ;i++){
+		printf("\n\n\nsemister:%d\n\n",i+1) ;
+		printf("\nenter mark1:");
+		scanf("%d",&m1) ;
+		printf("\nenter mark2:");
+		scanf("%d",&m2) ;
+		if(m1<40||m2<40){
+			printf("you failed\n") ;
+			return 0 ;
+		}
+		
+	}
+	printf("successful!!\n") ;
+	return 0 ;
+}
