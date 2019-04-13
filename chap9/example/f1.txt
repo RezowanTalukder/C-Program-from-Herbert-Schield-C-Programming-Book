@@ -1,0 +1,4 @@
+file f1 ;
+file f2 ;
+ÿfile f2 ;
+ÿÿ
